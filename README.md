@@ -30,13 +30,13 @@ Conteúdo:
 
 - (11) Detalhe com WebView
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Ações:
 ------
 > Cloning gitlinuxdev - ok
 
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 (1) O que é React Native ?
 ----------------------------
 > É uma ferramenta que possibilita utilizar o Java Script, para o desenvolvimento
@@ -72,7 +72,7 @@ const WelcomeScreen = () =>
     <Text>
       Press Cmd + M or Shake your device to open the
 
-------------------------------------------------------------------- 
+-------------------------------------------------------------------------------- 
 (2) Criando projeto
 --------------------
 
@@ -98,6 +98,18 @@ Metro Bundler -> Lê todo código JavaScript
 
 
 
-------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 (3) O que são componentes
 ----------------------------
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow
+ */
+
+> Componetização é uma arquitetura para separarmos, em vários componentes,
+> utilizada tanto na web como mobile. Componentes são Visualização, Lógica e Estilização.
+> É apresentado como uma classe, um componente por arquivo, podendo utilizar o export > > > default.
+>
