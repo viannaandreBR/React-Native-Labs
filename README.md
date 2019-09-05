@@ -78,25 +78,26 @@ const WelcomeScreen = () =>
 
 react-native -v
 
-react-native init
+react-native init hunt
+
+  > adb devices
+
+ Pela Primeira Vez
+  > cd hunt
 
     > ios
-      > react-native run ios
+      > react-native run-ios
 
     > Android
-      > react-native run android
+      > react-native run-android
 
-react-native start
+Metro Bundler -> Lê todo código JavaScript
 
-
-
-
-
+ Iniciar o projeto novamente:
+  > react-native start
 
 
 
 ------------------------------------------------------------------------------
 (3) O que são componentes
 ----------------------------
-
-
