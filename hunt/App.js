@@ -6,6 +6,7 @@ export default class App extends Component {
      return (
        <View style={styles.container}>
          <Text style={styles.welcome}>Welcome to React Native!</Text>
+         <View style={styles.box}/>
        </View>
      )
    }
@@ -22,4 +23,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
+  box: {
+    width: 60,
+    height: 60,
+    backgroundColor: "#F00"
+  }
 });

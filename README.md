@@ -96,8 +96,6 @@ Metro Bundler -> Lê todo código JavaScript
  Iniciar o projeto novamente:
   > react-native start
 
-
-
 --------------------------------------------------------------------------------
 (3) O que são componentes
 ----------------------------
