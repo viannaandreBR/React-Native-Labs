@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Routes from './routes';
+import './config/StatusBarConfig.js';
 
 //const App = () => <Routes/>;
 

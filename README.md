@@ -151,8 +151,40 @@ Metro Bundler -> Lê todo código JavaScript
       >>>>>>>>>>>return <Routes/>
    >>>>>>>> }
 >
+>
+>> Centralizando Titulo no Cabeçalho no Android
+static navigationOptions = {
+
+  headerTitleStyle :{textAlign: 'center',alignSelf:'center', flex:1},
+   title: 'Product Hunt',
+};
 --------------------------------------------------------------------------------
 (5) Estilizando Header e StatusBar
----------------------------
+--------------------------------------------------------------------------------
+>> Cabeçalho
+export default createStackNavigator({
+  Main
+}, {
+  navigationOptions: {
+    headerStyle: {
+      backgroundColor: "#DA552F"
+    },
+    headerTintColor: "#FFF"
+  },
+});
 
-  
+>> Pasta Configuração Cabeçalho iOS
+   /src/config/StatusBarConfig.js
+>>>>> Somente no Android
+       StatusBar.setBackgroundColor
+
+
+>> Mundando a cor do Cabeçalho
+import { StatusBar } from 'react-native';
+
+//Android
+//StatusBar.setBackgroundColor('#DA552F');
+StatusBar.setBackgroundColor('#000');
+
+//iOS
+StatusBar.setBarStyle('light-content');

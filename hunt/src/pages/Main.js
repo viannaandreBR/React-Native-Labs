@@ -4,9 +4,15 @@ import { View, Text } from 'react-native';
 
 
 export default class Main extends Component {
-  static navigationOptions = {
-    title: "Product Hunt"
-  };
+
+
+
+static navigationOptions = {
+
+  headerTitleStyle :{textAlign: 'center',alignSelf:'center', flex:1},
+   title: 'Product Hunt',
+};
+
   render() {
     return (
       <View>
