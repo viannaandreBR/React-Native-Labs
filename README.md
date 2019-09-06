@@ -1,6 +1,8 @@
 React Native Labs
-================== Welcome React
+================== 
 
+Welcome React
+-------------
 
 Ambiente de desenvolvimento React Native nas plataformas iOS e Android
 ----------------------------------------------------------------------
@@ -190,3 +192,42 @@ StatusBar.setBackgroundColor('#000');
 
 //iOS
 StatusBar.setBarStyle('light-content');
+.
+--------------------------------------------------------------------------------
+(6) Buscando produtos da API
+--------------------------------------------------------------------------------
+>
+> Biblioteca para acessar API Externa - Axios
+>
+> yarn add axios
+>
+> Criação da pasta services dentro da pasta scr:
+>
+> Utilizar /services => Comunicação externa via API, Banco de Dados...
+>
+>>>>> /src/services/api.js
+>
+> Trabalhando no api.js
+>
+>>>>>> "base_URL": "https://rocketseat-node.herokuapp.com/api"
+>
+>Utilizar o Método componentDidMount()
+>
+>
+> Abrir o Console.log no iOS e no Android
+>   Debug JS Remotely
+>
+> Abriu a tela no navegador local:
+>
+>> Dark Theme  Maintain Priority
+React Native JS code runs as a web worker inside this tab.
+
+Press Ctrl⇧J to open Developer Tools. Enable Pause On Caught Exceptions for a better debugging experience.
+
+You may also install the standalone version of React Developer Tools to inspect the React component hierarchy, their props, and state.
+
+Status: Debugger session #0 active.
+
+Reload app
+>
+
