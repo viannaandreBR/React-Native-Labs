@@ -155,11 +155,12 @@ Metro Bundler -> Lê todo código JavaScript
 >
 >
 >> Centralizando Titulo no Cabeçalho no Android
-static navigationOptions = {
-
-  headerTitleStyle :{textAlign: 'center',alignSelf:'center', flex:1},
-   title: 'Product Hunt',
-};
+>## static navigationOptions = {
+>## 
+>##  headerTitleStyle :{textAlign: 'center',alignSelf:'center', flex:1},
+>##   title: 'Product Hunt',
+>## };
+.
 --------------------------------------------------------------------------------
 (5) Estilizando Header e StatusBar
 --------------------------------------------------------------------------------
@@ -295,4 +296,9 @@ Reload app
             </View>
 >
 >
+>
+.
+--------------------------------------------------------------------------------
+(9) Estilizando lista de produtos
+--------------------------------------------------------------------------------
 >
