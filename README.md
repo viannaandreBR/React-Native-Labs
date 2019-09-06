@@ -1,5 +1,5 @@
 React Native Labs
-==================
+================== Welcome React
 
 
 Ambiente de desenvolvimento React Native nas plataformas iOS e Android
@@ -111,3 +111,48 @@ Metro Bundler -> Lê todo código JavaScript
 > utilizada tanto na web como mobile. Componentes são Visualização, Lógica e Estilização.
 > É apresentado como uma classe, um componente por arquivo, podendo utilizar o export > > > default.
 >
+> render() -> É um método obrigatório do componente, responsável pela parte visual.
+>
+>
+>
+>
+>
+>
+--------------------------------------------------------------------------------
+(4) Configurando Navegação
+---------------------------
+> Instalação Biblioteca React-Navigation
+>>>>> yarn add react-navigation@2.18.3
+>
+> Criar pasta /scr
+>    => Criar pasta pages /src/pages
+>    => index.js
+>    => routes.js
+> 
+> Migração App.js => /Temp
+>
+>
+>
+>>> routes.js
+    >>>> import {createStackNavigator } from 'react-navigatio';
+    >>>>
+    >>>> react-navigation=> Possui varios tipos de navegação:
+            >>>> Navegação Stack => Navegação por clicks
+            >>>> Navegação por abas
+            >>>> Navegação por botão lateral
+>
+>
+> Códigos Semelhantes com Arrow Functions:
+> 
+> >>>>>>const App = () => <Routes/>;
+>
+>>>>>>>>const App extends Component {
+>>>>>>>>>>>>render() {
+      >>>>>>>>>>>return <Routes/>
+   >>>>>>>> }
+>
+--------------------------------------------------------------------------------
+(5) Estilizando Header e StatusBar
+---------------------------
+
+  
