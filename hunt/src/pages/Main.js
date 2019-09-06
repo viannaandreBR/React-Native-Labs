@@ -9,6 +9,14 @@ static navigationOptions = {
    title: 'Product Hunt',
 };
 
+
+state = {
+
+  counter: 0,
+
+}
+
+
   componentDidMount(){
     this.loadProducts();
   }
@@ -18,14 +26,16 @@ static navigationOptions = {
 
     const { docs } = response.data;
 
-    console.log(docs);
+    this.setState({ counter: docs.length });
+
+   console.log(docs);
   };
 
   render() {
     return (
       <View>
 
-            <Text>Pagina Main</Text>
+            <Text>Pagina Main: {this.state.counter}</Text>
 
       </View>
     );

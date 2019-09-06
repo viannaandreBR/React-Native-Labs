@@ -231,3 +231,14 @@ Status: Debugger session #0 active.
 Reload app
 >
 
+.
+--------------------------------------------------------------------------------
+(7) Entendendo o estado
+--------------------------------------------------------------------------------
+>
+>
+>Estado => Uma variável, um objeto, que serve para armazenar toda e qualquer 
+> informação que será manipulada por dentro da classe, o React fica ounvindo a 
+> variável de estado, e toda vez que houver uma  alteração o método render() irá  >atualizar, de formar a fazer a renderização automática.
+>
+>
