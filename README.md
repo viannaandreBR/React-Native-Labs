@@ -173,6 +173,7 @@ export default createStackNavigator({
   },
 });
 
+
 >> Pasta Configuração Cabeçalho iOS
    /src/config/StatusBarConfig.js
 >>>>> Somente no Android
