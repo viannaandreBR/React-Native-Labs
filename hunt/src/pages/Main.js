@@ -5,16 +5,16 @@ import { View, Text } from 'react-native';
 
 export default class Main extends Component {
   static navigationOptions = {
-    title: "JSHunt"
+    title: "Product Hunt"
   };
   render() {
-    return
+    return (
       <View>
 
             <Text>Pagina Main</Text>
 
       </View>
-
+    );
 
   }
 }
