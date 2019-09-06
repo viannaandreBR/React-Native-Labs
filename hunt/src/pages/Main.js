@@ -12,7 +12,7 @@ static navigationOptions = {
 
 state = {
 
-  counter: 0,
+  docs: [],
 
 }
 
@@ -26,16 +26,19 @@ state = {
 
     const { docs } = response.data;
 
-    this.setState({ counter: docs.length });
+    this.setState({ docs });
 
-   console.log(docs);
+    //console.log(docs);
   };
 
   render() {
     return (
       <View>
 
-            <Text>Pagina Main: {this.state.counter}</Text>
+            <Text>Pagina Main:</Text>
+            {this.state.docs.map(product => (
+              <Text key={product._id}>{product.title}</Text>))}
+
 
       </View>
     );

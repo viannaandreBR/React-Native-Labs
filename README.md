@@ -242,3 +242,27 @@ Reload app
 > variável de estado, e toda vez que houver uma  alteração o método render() irá  >atualizar, de formar a fazer a renderização automática.
 >
 >
+>>>>> Visualizando estado (1):
+>>>>>>>>  <Text>Pagina Main:</Text>
+            {this.state.docs.map(product => {
+              return <Text>{product.title}</Text>;
+            })}
+>
+>
+>>>>> Visualizando estado (2):
+>>>>>>>  <Text>Pagina Main:</Text>
+            {this.state.docs.map(product => (
+               <Text>{product.title}</Text>
+            ))}
+>
+>
+>>>>> Visualizando estado (3):
+>>>>>>   <Text>Pagina Main:</Text>
+            {this.state.docs.map(product => <Text>{product.title}</Text>)}
+>
+>
+>>>>> Visualizando estado (4) Retirar Mensagem de Advertência:
+>>>>>
+        <Text>Pagina Main:</Text>
+            {this.state.docs.map(product => (
+              <Text key={product._id}>{product.title}</Text>))}
