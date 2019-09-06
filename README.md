@@ -266,3 +266,33 @@ Reload app
         <Text>Pagina Main:</Text>
             {this.state.docs.map(product => (
               <Text key={product._id}>{product.title}</Text>))}
+
+
+.
+--------------------------------------------------------------------------------
+(8) Listando produtos
+--------------------------------------------------------------------------------
+>
+> FlatList => Componente ReactNative pra Mostrar uma lista de dados 
+>
+>>>> renderItem
+>>>>>>>>>  renderItem = ({ item }) => (
+    <View>
+      <Text>{item.title}</Text>
+      <Text>{item.description}</Text>
+    </View>
+  );
+>
+>
+>>>> Flatlist
+>
+>>>>>>>>>> <View>
+        <FlatList   
+            data = {this.state.docs}
+            keyExtractor={item => item._id}
+            renderItem = {this.renderItem}
+        />
+            </View>
+>
+>
+>
