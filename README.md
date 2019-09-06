@@ -74,6 +74,7 @@ const WelcomeScreen = () =>
     <Text>
       Press Cmd + M or Shake your device to open the
 
+.
 -------------------------------------------------------------------------------- 
 (2) Criando projeto
 --------------------
@@ -98,6 +99,7 @@ Metro Bundler -> Lê todo código JavaScript
  Iniciar o projeto novamente:
   > react-native start
 
+.
 --------------------------------------------------------------------------------
 (3) O que são componentes
 ----------------------------
@@ -120,6 +122,7 @@ Metro Bundler -> Lê todo código JavaScript
 >
 >
 >
+.
 --------------------------------------------------------------------------------
 (4) Configurando Navegação
 ---------------------------
@@ -160,6 +163,7 @@ Metro Bundler -> Lê todo código JavaScript
 >>>>>>>  headerTitleStyle :{textAlign: 'center',alignSelf:'center', flex:1},
 >>>>>>   title: 'Product Hunt',
 >>>>>> };
+
 .
 --------------------------------------------------------------------------------
 (5) Estilizando Header e StatusBar
@@ -193,6 +197,7 @@ StatusBar.setBackgroundColor('#000');
 
 //iOS
 StatusBar.setBarStyle('light-content');
+
 .
 --------------------------------------------------------------------------------
 (6) Buscando produtos da API
