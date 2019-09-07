@@ -36,6 +36,11 @@ Conteúdo:
 Ações:
 ------
 > Cloning gitlinuxdev - ok
+>
+> Docusaurus.io
+>>> Instalação Docusaurus.io
+>>>>>>> yarn global add docusaurus-init
+>>>>>>> docusaurus-init
 
 
 --------------------------------------------------------------------------------
