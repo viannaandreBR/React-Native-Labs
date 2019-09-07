@@ -62,47 +62,47 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {Header} from './Header';
 
-const WelcomeScreen = () => 
-  <View>
-    <Header title="Welcome to React Native"/>
-    <Text style={header}>Step One</Text>
-    <Text>
-      Edit App.js to change this screen and turn it
-      into your app.
-    </Text>
-    <Text style={header}>See Your Changes</Text>
-    <Text>
-      Press Cmd + R inside the simulator to reload
-      your app’s code.
-    </Text>
-    <Text style={header}>Debug</Text>
-    <Text>
-      Press Cmd + M or Shake your device to open the
+>const WelcomeScreen = () => 
+>  <View>
+>    <Header title="Welcome to React Native"/>
+>    <Text style={header}>Step One</Text>
+>    <Text>
+>      Edit App.js to change this screen and turn it
+>      into your app.
+>    </Text>
+>    <Text style={header}>See Your Changes</Text>
+>    <Text>
+>      Press Cmd + R inside the simulator to reload
+>      your app’s code.
+>    </Text>
+>    <Text style={header}>Debug</Text>
+>    <Text>
+>      Press Cmd + M or Shake your device to open the
 
 .
 -------------------------------------------------------------------------------- 
 (2) Criando projeto
 --------------------
 
-react-native -v
+>react-native -v
 
-react-native init hunt
+>react-native init hunt
 
-  > adb devices
+>>>> adb devices
 
- Pela Primeira Vez
-  > cd hunt
-
-    > ios
-      > react-native run-ios
-
-    > Android
-      > react-native run-android
-
-Metro Bundler -> Lê todo código JavaScript
-
- Iniciar o projeto novamente:
-  > react-native start
+> Pela Primeira Vez
+>>>> cd hunt
+>
+>>>>>> ios
+>>>>>>>>>> react-native run-ios
+>
+>>>>>>> Android
+>>>>>>>>>>>> react-native run-android
+>
+>Metro Bundler -> Lê todo código JavaScript
+>
+> Iniciar o projeto novamente:
+>>>> react-native start
 
 .
 --------------------------------------------------------------------------------
