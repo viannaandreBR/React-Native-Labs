@@ -340,3 +340,19 @@ Reload app
        productInfo,
        page
        });
+
+(11) Detalhe com WebView
+-------------------------------------------------------------------------------
+>
+> Criação nova página product.js
+>>>>>>>/pages/product.js
+>
+>>>>> WebView
+>>
+>>  yarn add react-native-webview
+>>>
+>>>>> Help.ME
+>>>>>react-native link
+>>>>>react-native start --reset-cache
+>>>>>uninstall the app from the device
+>>>>>react-native run-android
