@@ -305,5 +305,14 @@ Reload app
 
 (9) Estilizando lista de produtos
 -------------------------------------------------------------------------------
+>
+>  <View style={styles.productContainer}>
+      <Text sytle={styles.productTitle}>{item.title}</Text>
+      <Text style={styles.productDescription}>{item.description}</Text>
 
+      <TouchableOpacity style={styles.productButton}onPress={()=>{}}>
+        <Text style={styles.productButtonText}>Acessar</Text>
+      </TouchableOpacity>
+
+    </View>
 >
